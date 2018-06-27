@@ -8,7 +8,7 @@
  		'images' => ''
  	), $atts));
  	$urls = explode(', ', $images);
- 	var_dump($urls);
+ 	//var_dump($urls);
  	?>
     <div class="row slider-row">
         <div class="heading-container">
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="container text-center">
-          <button type="button" class="btn btn-default btn-alt-hover ">noch mehr bilder</button>
+          <a href="<?php echo get_site_url(null, '/fotos'); ?>" class="btn btn-default btn-alt-hover ">noch mehr bilder</a>
         </div>
     </div>
 	<?php
