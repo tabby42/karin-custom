@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="container text-center">
-          <a href="<?php echo get_site_url(null, '/fotos'); ?>" class="btn btn-default btn-alt-hover ">noch mehr bilder</a>
+          <!-- <a href="<?php //echo get_site_url(null, '/fotos'); ?>" class="btn btn-default btn-alt-hover ">noch mehr bilder</a> -->
         </div>
     </div>
 	<?php
