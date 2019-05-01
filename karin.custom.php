@@ -15,4 +15,5 @@
 require_once(dirname(__FILE__) . '/files/enqueue-scripts.php');
 require_once(dirname(__FILE__) . '/files/swiper-shortcode.php');
 require_once(dirname(__FILE__) . '/files/events-cpt.php');
+require_once(dirname(__FILE__) . '/extended-cpts-master/extended-cpts.php';
 ?>
